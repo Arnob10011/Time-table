@@ -13,8 +13,8 @@ function showTime() {
   const minEl = document.querySelector(".min");
   const secEl = document.querySelector(".sec");
 
-  hourEl.textContent = hour;
-  minEl.textContent = min;
+  hourEl.textContent = `${hour}   :`;
+  minEl.textContent = `${min}   :`;
   secEl.textContent = sec;
 
   setTimeout(showTime, 1000);
